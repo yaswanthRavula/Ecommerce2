@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: flex-start !important;
+    justify-content: space-between;
+}
+.address-container{
+    display: flex;
+}
+.text-container{
+    margin-left: 40px;
+
+}
+.title-container{
+    display: flex;
+    align-items: center;
+   
+}
+.title-container h1{
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+   margin: 0;
+
+    /* Dark */
+
+    color: #17183B;
+}
+.title-container h4{
+    margin: 0;
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #8D448B;
+    border: 1px solid #8D448B ;
+    padding: 4px 4px;
+    margin-left: 10px;
+    border-radius: 3px;
+
+}
+.street{
+    font-family: 'Proxima-Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Dark */
+
+color: #17183B;
+}
+.contact{
+    font-family: 'Proxima-Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Dark */
+
+color: #17183B;
+
+}
+.contact span{
+    opacity: 0.6;
+}
+
+.edit-and-remove-container{
+    display: flex;
+    align-items: center;
+}
+.edit , .remove{
+   padding: 10px 30px;
+   font-family: 'Proxima-Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: right;
+text-transform: uppercase;
+
+/* Dark */
+
+color: #17183B;
+
+}
+.edit{
+    border-right: 1px  solid rgba(128, 128, 128, 0.248);
+}
+.remove{
+    color: #E14B4B;
+}

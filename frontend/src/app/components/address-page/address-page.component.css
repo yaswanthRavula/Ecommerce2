@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-between;
+
+}
+.page-title{
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    margin-bottom: 20px;
+
+    /* Dark */
+
+    color: #17183B;
+
+}
+.page-title span{
+    
+opacity: 0.2;
+}
+
+.col-1{
+    width: 60%;
+    text-align:left;
+}
+
+.address-item{
+    display: flex;
+    padding: 30px 0px;
+     width: 100%;
+}
+.col-2{
+    width: 280px;
+}
+.add-new-address{
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-top: 1px solid rgba(128, 128, 128, 0.234);
+    color: #8D448B;
+}

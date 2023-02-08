@@ -1,0 +1,12 @@
+<div class="container">
+    <h6>What deal suit you perfectly</h6>
+    <h2>Meet our pricing plan</h2>
+    <div class="switch-container">
+        <p class="switch-item-active" (click)="itemSwitched(1)" id="switch-item-1">Monthly Plan</p>
+        <p class="switch-item" (click)="itemSwitched(2)" id="switch-item-2">Annual Plan</p>
+    </div>
+    <div class="pricing-plans-container">
+        <app-plan-template class="pricing-plan" [planObject]="plan1"></app-plan-template>
+        <app-plan-template class="pricing-plan" [planObject]="plan2"></app-plan-template>
+    </div>
+</div>

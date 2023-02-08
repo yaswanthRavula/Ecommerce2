@@ -1,0 +1,96 @@
+.container{
+    background: #fff;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 15PX;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 1px solid #EAE8ED;
+}
+img{
+    padding: 10px 50px;
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+h3{
+    margin: 0;
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    /* Black */
+
+    color: #0C0C23;
+}
+h6{
+
+    margin: 5px 0;
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    /* identical to box height */
+    
+    /* Gray/68 */
+    color: #ABAAAD;
+    
+    /* Inside auto layout */
+    
+}
+.buttons-container{
+    margin-top: 20px;
+}
+.price-button{
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    width: 107px;
+    height: 35px;
+    border: none;
+    background: #F2F0F5;
+    border-radius: 6px;
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 19px;
+    color: #111;
+    margin-right: 10px;
+
+}
+.add-cart-button{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 10px;
+    width: 107px;
+    height: 35px;
+    background: #8D448B;
+    border-radius: 6px;
+    border: none;
+    font-family: Satoshi;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+
+
+}
+
+
+@font-face {
+    font-family: Satoshi;
+    src: url("/assets/Satoshi_Complete/Satoshi-Variable.ttf");
+}

@@ -1,0 +1,139 @@
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.page-title{
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+    margin-bottom: 60px;
+
+    /* Dark */
+
+    color: #17183B;
+
+}
+.page-title span{
+    
+opacity: 0.2;
+}
+
+.col-1{
+    width: 60%;
+    text-align:left;
+}
+
+.col-2{
+    width: 280px;
+}
+.input-container{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.283);
+}
+.input-container p{
+    font-family: 'Proxima-Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: right;
+text-transform: uppercase;
+
+color: #8D448B;
+
+
+}
+input{
+    border:none;
+    width: 80%;
+    outline: none;
+    font-family: 'Proxima-Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height */
+font-size: 14px;
+
+
+/* Dark */
+
+color: #17183B;
+
+}
+.text{
+    font-family: 'Proxima-Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #17183B;
+
+opacity: 0.6;
+}
+.shipment-method-item{
+    margin-bottom: 10px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.shipment-method-item svg{
+    margin-right: 10px;
+}
+.shipment-method-item .price{
+    margin-right: 10px;
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #17183B;
+}
+.shipment-method-item .method{
+    font-family: 'Proxima-Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #17183B;
+}
+.s{
+    font-family: 'Proxima-Nova';
+font-style: normal;
+margin-top: 60px;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #17183B;
+}

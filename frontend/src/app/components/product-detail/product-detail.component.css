@@ -1,0 +1,231 @@
+.container{
+    border-top: 1px solid rgba(211, 211, 211, 0.174);
+    padding:20px 30px;
+    display: flex;
+}
+.col-1{
+    margin-left:5%;
+    width: 450px;
+}
+.category{
+    margin-top: 10%;
+    font-family: "Proxima-Nova";
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #17183b76;
+}
+.category .prod-name-span{
+    font-family: 'Proxima-Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height */
+opacity: 1.0 !important;
+
+color: #17183B;
+    
+}
+.product-title{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Dark */
+
+    color: #17183B;
+
+}
+.price-and-rating-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    /* identical to box height */
+
+
+    /* Dark */
+
+    color: #17183B;
+}
+.review{
+    display: flex;
+    align-items: center;
+}
+.rating-text{
+    margin-left: 10px;
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* Dark */
+
+    color: #06070D;
+
+}
+.rating-text span{
+    opacity: 0.7;
+}
+.description{
+    font-family: 'Proxima-Nova';
+    width: 430px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Dark */
+
+color: #17183B;
+
+}
+
+.quantity-and-add-container{
+    display: flex;
+    margin-top: 40px;
+}
+.quantity-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 140px; 
+    height:38px;
+    border: 1px solid grey;
+}
+.quantity{
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 26px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Dark */
+
+    color: #17183B;
+}
+.add-to-cart-button{
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    height: 40px;
+    background: #8D448B;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 45px;
+    text-transform: uppercase;
+    margin-left:20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.features-container{
+    font-family: 'Proxima-Nova';
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* Dark */
+
+    color: #17183B;
+
+}
+.wishlist-and-social-container{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+.wishlist-container{
+    display:flex;
+    align-items: center;
+}
+.wishlist{
+    font-family: 'Proxima-Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px;
+    /* identical to box height */
+
+
+    color: #8D448B;
+
+
+}
+.social-container{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.col-2{
+    display: flex;
+    height: 100%;
+   
+}
+.image-back{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+ .col-2 .main-image{
+    width: 300px;
+    position: absolute;
+    right: 200px;
+    top: 3%;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.all-images-container{
+    position: absolute;
+    right: 150px;
+    top: 90%;
+}
+.all-Images{
+    width: 60px;
+    height:60px ;
+    margin: 10px;
+    margin-top: 100px0;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid rgba(128, 128, 128, 0.195);
+}

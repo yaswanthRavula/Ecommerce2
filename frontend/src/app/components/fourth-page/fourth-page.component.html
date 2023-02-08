@@ -1,0 +1,7 @@
+<div class="container">
+    <h6>TESTINOMIAL</h6>
+    <h2>Meet Client Satisfaction</h2>    
+    <div class="feedbacks-container">
+    <app-feedback-card class="feedback" *ngFor="let item of feedbacks" [userName]="item.userName" [feedbackTitle]="item.feedbackTitle" [feedbackDescription]="item.feedbackDescription" [rate]="item.rate" ></app-feedback-card>
+    </div>
+</div>

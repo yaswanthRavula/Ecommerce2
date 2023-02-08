@@ -1,0 +1,153 @@
+.pc-nav-container{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.038);
+    font-family: 'Poppins', sans-serif;
+}
+.mob-nav-options{
+    display: none;
+}
+.mob-nav-container{
+    display: none;
+}
+
+/*---------------------Nav Options PC Version-------------------------------*/
+.pc-nav-options-container{
+    display: flex;
+}
+.pc-nav-title{
+    display: flex;
+    font-size: 14px;
+    margin-left:2vw ;
+    cursor: pointer;
+    font-weight: 500;
+    color: #2B2B2B;
+}
+.pc-nav-title:hover{
+    color: #8D448B;
+}
+
+
+/*----------------Signup & Cart Division PC Version---------------------------------*/
+
+.signup-button{
+    background: #8D448B;
+    border-radius: 50px;
+    padding: 8px 24px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.signup-container{
+    display: flex;
+    align-items: center;
+}
+.cart-icon{
+    cursor: pointer;
+}
+
+
+/*----------------------For Mobile phones & Tablets-----------------------------*/
+@media (max-width: 920px) {
+    .mob-nav-options{
+        display: block;
+    }
+  .pc-nav-container{
+    display: none;
+  }
+  .mob-nav-container{
+    position: fixed;
+    display: flex;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    box-shadow: 0px 3px 10px -4px #111;
+    background-color: #8D448B;
+  }
+  .mob-nav-bar-title{
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-size: 18px;
+  }
+  .mob-options-icon{
+    margin-right: 5vw;
+    padding: 4px 6px;
+    border-radius: 4px;
+    background-color: #fff;
+    
+  }
+  .mob-options-icon:active{
+    animation: shake 0.4s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+  }
+  .mob-nav-options{
+    
+    transition: 3s;
+    font-family: 'Poppins', sans-serif;
+    background-color: #8D448B;
+    width: auto;
+    height: 980px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 8vh;
+    color: #fff;
+    margin: 0;
+  }
+   .mainmenu{
+    padding-left: 2vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.076);
+  }
+  .submenu{
+    padding-left: 10vw;
+    
+  }
+  h5{
+   color: rgb(224, 224, 224);
+   align-items: center;
+   font-style: italic;
+   font-weight: 200;
+
+  }
+   h3{
+    margin-left: 20px;
+  }
+
+  }
+
+
+
+
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

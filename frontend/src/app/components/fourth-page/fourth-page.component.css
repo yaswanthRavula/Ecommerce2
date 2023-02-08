@@ -1,0 +1,47 @@
+.container{
+    position: absolute;
+    top: 3500px;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.container h6{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    margin: auto;
+    /* identical to box height, or 286% */
+  width: fit-content;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+
+    color: #8D448B;
+}
+.container h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    /* or 153% */
+width: fit-content;
+margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.5px;
+
+    color: #0F2137;
+}
+.feedbacks-container{
+    display:flex; 
+    margin:100px auto;
+    width: 80%;  
+}
+.feedback{
+    margin:0px 20px;
+}
