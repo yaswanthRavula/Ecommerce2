@@ -1,5 +1,6 @@
 import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-detail',
@@ -15,10 +16,14 @@ export class ProductDetailComponent implements OnInit {
   allImageURLs=["/assets/whopper.png","/assets/image.png","/assets/whopper.png","/assets/whopper.png"];
   activeImageUrl=this.allImageURLs[0];
   feature=["Free 2-5 day Shipping", "Tool-free assembly", "30-day trail"]
-  constructor(private location: Location) { }
+  constructor(private location: Location, private router:Router) { }
 
   ngOnInit(): void {
     
+  }
+
+  addToCart(){
+    this.router.navigate(['/cart'])
   }
   imageClicked(imageUrl,i:number){
     this.activeImageUrl=imageUrl;
@@ -29,6 +34,15 @@ export class ProductDetailComponent implements OnInit {
   }
   onBackClicked(){
      this.location.back();
+  }
+  increaseQuantity(){
+    this.quantity=this.quantity+1
+
+  }
+  decreaseQuantity(){
+    if(this.quantity>1){
+      this.quantity=this.quantity-1;
+    }
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-suggestion-template',
@@ -13,9 +14,12 @@ export class ProductSuggestionTemplateComponent implements OnInit {
  @Input() imageUrl: any;
  
 
-  constructor() { }
+  constructor(private route:Router) { }
 
   ngOnInit(): void {
+  }
+  goToProductDetails(){
+      this.route.navigate(['/product-detail'])
   }
 
 }

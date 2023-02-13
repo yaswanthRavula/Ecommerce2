@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {  Router } from '@angular/router';
 
 @Component({
   selector: 'app-order-summary-template',
@@ -14,9 +15,22 @@ export class OrderSummaryTemplateComponent implements OnInit {
     ["Shipping", "Free"]
 
   ]
-  constructor() { }
+  constructor(private router:Router) { }
+  var=0;
 
   ngOnInit(): void {
+  }
+  goToAddress()
+  {
+    
+    if(this.router.url =="/cart"){
+      this.router.navigate(['/address']);
+      this.var=1;
+    }else if(this.router.url =="/address"){
+      this.router.navigate(['/shipping'])
+    }else if(this.router.url =="/shipping"){
+       alert("Payment is not yet completed")
+    }
   }
 
 }

@@ -1,6 +1,6 @@
 <div class="container">
     <div class="col-1">
-        <svg (click)="onBackClicked()" width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg (click)="onBackClicked()" style="cursor:pointer;" width="25" height="12" viewBox="0 0 25 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_0_681)">
             <path d="M24 6H1" stroke="#17183B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M6 11L1 6L6 1" stroke="#17183B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -28,16 +28,16 @@
         <p class="description">The gently curved lines accentuated by sewn details are kind to your body and pleasant to look at. Also, there’s a tilt and height-adjusting mechanism that’s built to outlast years of ups and downs.</p>
         <div class="quantity-and-add-container">
             <div class="quantity-container">
-                <svg width="10" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg style="cursor: pointer;" (click)="decreaseQuantity()" width="10" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.16675 1H12.8334" stroke="#17183B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 <p class="quantity">{{quantity}}</p>
-                <svg width="13" height="13" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg style="cursor: pointer;" (click)="increaseQuantity()" width="13" height="13" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10 4.16675V15.8334" stroke="#17183B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M4.16675 10H15.8334" stroke="#17183B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>                        
             </div>
-            <button class="add-to-cart-button">Add to cart</button>
+            <button (click)="addToCart()" class="add-to-cart-button">Add to cart</button>
         </div>
         <div class="features-container">{{feature[0]}} &nbsp; . &nbsp; {{feature[1]}} &nbsp; . &nbsp;{{feature[2]}}</div>
         <div class="wishlist-and-social-container">
